@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Otmane Belghiti</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    
+    <!-- Your CSS File -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">Otmane <span>Belghiti</span></a>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero" id="Home">
+        <div class="slide"></div>
+        <div class="left">
+            <h4>Hi my name is</h4>
+            <h1>Otmane Belghiti</h1>
+            <h2>I am a <span class="typing-text">Programmer</span></h2>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="right">
+            <img src="images/Hand coding-bro.png" alt="Coding Illustration">
+        </div>
+    </div>
+
+    <div class="about" id="About">
+        <h1><span>About</span> me</h1>
+        <div class="row">
+            <div class="img">
+                <img src="images/Resume-bro.png" alt="About Illustration">
+            </div>
+            <div class="content-info">
+                <div class="info">
+                    <div class="box">
+                        <h3><span>Full Name:</span> Otmane Belghiti</h3>
+                        <h3><span>Age:</span> 16 years</h3>
+                        <h3><span>Email:</span> otmanlacuba2006@gmail.com</h3>
+                        <h3><span>Phone:</span> 0773070023</h3>
+                    </div>
+                    <div class="box">
+                        <h3><span>Experience:</span> 3 months</h3>
+                        <h3><span>Address:</span> 9, lot Errached Taourirt</h3>
+                        <h3><span>Language:</span> Arabic, French, English</h3>
+                        <h3><span>Freelance:</span> Available</h3>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="content-exper">
+            <div class="exper">
+                <div class="box">
+                    <h3>3+</h3>
+                    <p>Months of experience</p>
+                </div>
+                <div class="box">
+                    <h3>10+</h3>
+                    <p>Happy clients</p>
+                </div>
+                <div class="box">
+                    <h3>30+</h3>
+                    <p>Projects completed</p>
+                </div>
+                <div class="box">
+                    <h3>20+</h3>
+                    <p>Awards won</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="Services">
+        <h1>Our <span>Services</span></h1>
+        <div class="row">
+            <div class="box">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Building responsive and modern websites using HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>App Development</h2>
+                <p>Creating functional and user-friendly mobile applications.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-palette"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing intuitive and beautiful user interfaces for digital products.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-bug"></i>
+                <h2>Bug Fixing</h2>
+                <p>Identifying and resolving issues in existing codebases efficiently.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact" id="Contact">
+        <h1>Get in <span>Touch</span></h1>
+        
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>otmane.belghiti.officiel@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>0773070023</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>9, lot Errached Taourirt</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/xbdnwoba" method="POST" class="contact-form">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="input-box">
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+               <button type="submit" class="btn">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer id="Contact">
+        <h1>Otmane Belghiti</h1>
+        <p>Follow us on social media below</p>
+        <div class="media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <h2>Copyright by <span>Otmane Belghiti</span></h2>
+    </footer>
+
+    <!-- Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script>
+        var type = new Typed('.typing-text', {
+            strings: ['Designer', 'Programmer', 'Student'],
+            typeSpeed: 120,
+            loop: true
+        });
+    
+        ScrollReveal({
+            reset: true,
+            distance: '50px',
+            duration: 1500,
+            delay: 100
+        });
+        ScrollReveal().reveal('.right img', { delay: 200, origin: 'right' });
+        ScrollReveal().reveal('.left', { delay: 300, origin: 'left' });
+        ScrollReveal().reveal('.about .row', { delay: 300, origin: 'bottom' });
+        ScrollReveal().reveal('.services .box', { delay: 300, origin: 'bottom', interval: 100 });
+    </script>
+</body>
+</html>
